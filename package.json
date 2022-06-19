@@ -2,7 +2,7 @@
   "name": "js-crud-api-copy",
   "description": "Simple CRUD API using in-memory database underneath",
   "version": "0.0.1",
-  "main": "./dist/src/index.js",
+  "main": "./dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/va259/node-js-crud-api.git"
@@ -10,7 +10,7 @@
   "author": "va259",
 
   "scripts": {
-    "start:prod": "npm run build && node ./dist/src/index.js",
+    "start:prod": "npm run build && node dist/index.js",
     "start:dev": "nodemon src/index.ts",
     "build": "tsc",
     "lint": "eslint . --fix"
