@@ -2,7 +2,8 @@
 
 ## Installation
 
-Download the repo, unzip the files if needed and run:
+Download the repo, unzip the files if needed, install the dependenies by running
+ ```npm install```. To start the app use the following commands:
 
 ```npm run start:prod``` to run the app in production mode
 
