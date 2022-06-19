@@ -2,6 +2,7 @@
 import 'dotenv/config';
 import { createServer, IncomingMessage, ServerResponse } from 'node:http';
 import process from 'node:process';
+import { getUsers, getUserById, addUser, updateUser, deleteUser } from './controllers/userController';
 
 const PORT = process.env.PORT;
 
