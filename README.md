@@ -2,19 +2,17 @@
 
 ## Installation
 
-Download the repo, unzip the files if needed and run commands:
+Download the repo, unzip the files if needed and run:
 
 ```npm run start:prod``` to run the app in production mode
 
 ```npm run start:dev``` to run the app in development mode
 
-```npm run test``` to run the unit tests
+## App operation
 
-## App running
+The server runs on ```port 3000``` by default (port value stored in .env file which is removed from .gitignore for testing purposes ) and accepts json formatted payload. Requests can be sent on e.g. ```localhost:3000```. Routes and methods are as follows:
 
-The server runs on ```port 3000``` by default (port value stored in .env file which is removed from .gitignore for testing purposes ) and accepts json formatted payload. Requests can be sent on e.g. ```localhost:3000```. The routes and methods are as follows:
-
-## Get list of all users
+## Get a list of all users
 
 ### Request
 
